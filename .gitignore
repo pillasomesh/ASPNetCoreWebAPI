@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs/AccountOwnerServer
+/AccountOwnerServer/bin/Debug/netcoreapp3.0
+/Entities/bin/Debug/netcoreapp3.0
+/Entities/obj
+/Contracts/bin/Debug/netcoreapp3.0
+/LoggerService/bin/Debug/netcoreapp3.0
+/LoggerService/obj
+/Contracts/obj
