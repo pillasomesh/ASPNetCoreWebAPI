@@ -11,3 +11,6 @@
 /LoggerService/obj
 /Contracts/obj
 /AccountOwnerServer/obj
+/Repository/bin/Debug/netcoreapp3.0
+/Repository/obj/Debug/netcoreapp3.0
+/Repository/obj

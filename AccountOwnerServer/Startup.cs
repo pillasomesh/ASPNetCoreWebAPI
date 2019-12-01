@@ -37,6 +37,7 @@ namespace AccountOwnerServer
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+            services.ConfigureRepositoryWrapper();
             services.AddControllers();
         }
 
