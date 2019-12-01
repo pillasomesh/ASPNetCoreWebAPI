@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
+using Repository;
 
 namespace AccountOwnerServer.Extensions
 {
@@ -37,6 +38,10 @@ namespace AccountOwnerServer.Extensions
         {
             services.AddSingleton<ILoggerManager, LoggerManager>();
         }
-        
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
+
     }
 }
